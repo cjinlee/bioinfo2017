@@ -1,0 +1,53 @@
+########################################
+# Program: needle
+# Rundate: Thu 30 Mar 2017 02:13:29
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20170330-021329-0188-32565460-oy.asequence
+#    -bsequence emboss_needle-I20170330-021329-0188-32565460-oy.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: INS_HUMAN
+# 2: INS_CHICK
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 110
+# Identity:      70/110 (63.6%)
+# Similarity:    75/110 (68.2%)
+# Gaps:           3/110 ( 2.7%)
+# Score: 334.0
+# 
+#
+#=======================================
+
+INS_HUMAN          1 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFY     50
+                     ||||:|.|||||||...||..:.|..||||||||||||||||||||||||
+INS_CHICK          1 MALWIRSLPLLALLVFSGPGTSYAAANQHLCGSHLVEALYLVCGERGFFY     50
+
+INS_HUMAN         51 TPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSIC    100
+                     :||.||:.|...|.....|   .||.|.....|....|||||||||.:.|
+INS_CHICK         51 SPKARRDVEQPLVSSPLRG---EAGVLPFQQEEYEKVKRGIVEQCCHNTC     97
+
+INS_HUMAN        101 SLYQLENYCN    110
+                     ||||||||||
+INS_CHICK         98 SLYQLENYCN    107
+
+
+#---------------------------------------
+#---------------------------------------
