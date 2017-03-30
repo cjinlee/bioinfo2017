@@ -1,0 +1,53 @@
+########################################
+# Program: needle
+# Rundate: Wed 29 Mar 2017 22:56:22
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20170329-225621-0170-42443862-pg.asequence
+#    -bsequence emboss_needle-I20170329-225621-0170-42443862-pg.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: INS_HUMAN
+# 2: INS1_MOUSE
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 110
+# Identity:      86/110 (78.2%)
+# Similarity:    91/110 (82.7%)
+# Gaps:           2/110 ( 1.8%)
+# Score: 442.5
+# 
+#
+#=======================================
+
+INS_HUMAN          1 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFY     50
+                     |||.:..||||||||||.|.|..|||.|||||.|||||||||||||||||
+INS1_MOUSE         1 MALLVHFLPLLALLALWEPKPTQAFVKQHLCGPHLVEALYLVCGERGFFY     50
+
+INS_HUMAN         51 TPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSIC    100
+                     |||:|||.||.||.|:||||.|  |.||.||||.:.||||||:|||||||
+INS1_MOUSE        51 TPKSRREVEDPQVEQLELGGSP--GDLQTLALEVARQKRGIVDQCCTSIC     98
+
+INS_HUMAN        101 SLYQLENYCN    110
+                     ||||||||||
+INS1_MOUSE        99 SLYQLENYCN    108
+
+
+#---------------------------------------
+#---------------------------------------

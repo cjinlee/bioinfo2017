@@ -1,0 +1,53 @@
+########################################
+# Program: needle
+# Rundate: Thu 30 Mar 2017 02:12:22
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20170330-021221-0553-4468237-pg.asequence
+#    -bsequence emboss_needle-I20170330-021221-0553-4468237-pg.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: INS_HUMAN
+# 2: INS1_XENLA
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 113
+# Identity:      64/113 (56.6%)
+# Similarity:    74/113 (65.5%)
+# Gaps:          10/113 ( 8.8%)
+# Score: 306.5
+# 
+#
+#=======================================
+
+INS_HUMAN          1 MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFY     50
+                     |||||:.|||:.:|....|: ..|.|||||||||||||||||||:|||||
+INS1_XENLA         1 MALWMQCLPLVLVLFFSTPN-TEALVNQHLCGSHLVEALYLVCGDRGFFY     49
+
+INS_HUMAN         51 TPKTRREAEDLQVGQVELGGGPGAGSLQPLAL---EGSLQKRGIVEQCCT     97
+                     .||.:|:.|...|      .||....|..:.|   |....|||||||||.
+INS1_XENLA        50 YPKVKRDMEQALV------SGPQDNELDGMQLQPQEYQKMKRGIVEQCCH     93
+
+INS_HUMAN         98 SICSLYQLENYCN    110
+                     |.|||:|||:|||
+INS1_XENLA        94 STCSLFQLESYCN    106
+
+
+#---------------------------------------
+#---------------------------------------
